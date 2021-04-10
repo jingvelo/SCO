@@ -1,0 +1,29 @@
+/* Header size adjustment for mobile, tablet and desktop view */
+@media only screen and (max-width: 409px) {
+.lasvegas-header {
+    font-size: 32px!important;
+    line-height: 1.1!important;
+}
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+.lasvegas-header {
+    font-size: 40px!important;
+    line-height: 1.1!important;
+}
+}
+
+@media (min-width: 768px) {
+.lasvegas-header {
+    font-size: 65px!important;
+    line-height: 1.1;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+.lasvegas-header {
+    font-size: 55px!important;
+    line-height: 1.1;
+    padding-top: 100px;
+}
+}
